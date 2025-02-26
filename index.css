@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:bor-border;
+}
+.f7{
+    flex: 8;
+    margin-left: 116px;
+}
+.f7 h1{
+    width: 4rem;
+    text-align: center;
+    padding: 5px;
+    background: rgba(255, 0, 0, 0.753);
+    border-radius: 15px;
+}
+.f3{
+    flex: 2;
+}
+
+/* main */
+/* 1sec bgimg */
+.bgimg{
+    background-image: url(17380.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.outerinfo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000009c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.otherinfo{
+    display: flex;
+        width: 100%;
+        height: 7vh;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+}
+.s1a{
+    text-decoration: none; 
+    color: white;
+    padding: 10px;
+    border: 1px solid red;
+    height: 50px;
+    width: 30%;
+}
+.s1a:hover{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+@media (max-width:1000px) {
+    .otherinfo{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .s1a{
+        width: 50%;
+    }
+}
+
+/* 2sec about us  */
+.aboutus{
+    width: 100%;
+    height: 85vh;
+}
+.inneraboutus{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+}
+.aboutush1{
+    font-size: xxx-large;
+    color: red;
+    font-weight: 700;
+}
+.aboutinfo{
+    width: 100%;
+    height: 87%;
+    display: flex;
+}
+.myimg{
+    height: 100%;
+    margin-right: 10px;
+    flex: 3.5;
+    background-image: url(IMG_20240414_161810~2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.myinfo{
+    height: 100%;
+    margin-left: 10px;
+    flex: 6.5;
+    text-align: start;
+    padding: 20px;
+    line-height: 100px;
+}
+.s2p1{
+    font-size: 1.2rem;
+    color: black;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.s2span{
+    color: #00000091;
+}
+.s2a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.s2a:hover{
+    background-color: rgba(34, 32, 32, 0.589);
+    border: 1px solid rgba(179, 194, 45, 0.829);
+}
+@media (max-width:1000px) {
+    .aboutinfo{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .myimg{
+        width: 50%;
+        height: 100%;
+        padding: 150px;
+        margin: 0;
+        transform: translate(30px, 10px);
+    }
+    .inneraboutus{
+        height: 100%;
+    }
+}
+
+/* 3sec Education */
+.sec3{
+    width: 100%;
+    height: 160vh;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.edu1{
+    width: 70%;
+    height: 30vh;
+    color: white;
+    background: white;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inneredu{
+    height: 100%;
+    padding: 25px;
+    text-align: start;
+}
+.s3p{
+    color: red; 
+    font-size: 2rem;
+    font-weight: 900;
+}
+.s3p1{
+    font-size: 1.4rem;
+    color: #000;
+}
+@media (max-width:1000px) {
+    .sec3{
+        transform: translate(10px, 370px);
+    }
+    .edu1{
+        width: 100%;
+    }
+    .inneredu{
+        padding: 0 10px;
+        margin: 0;
+        line-height: 30px;
+    }
+}
