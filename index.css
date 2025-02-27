@@ -21,7 +21,7 @@
 /* main */
 /* 1sec bgimg */
 .bgimg{
-    background-image: url(17380.jpg);
+    background-image: url(business-people-with-laptop-tablet.jpg);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -31,8 +31,8 @@
 .outerinfo{
     position: absolute;
     width: 100%;
-    height: 100%;
-    background: #0000009c;
+    height: 100% !important;
+    background:  #0000009c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,21 +181,134 @@
     color: red; 
     font-size: 2rem;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 .s3p1{
     font-size: 1.4rem;
     color: #000;
+    margin-bottom: 10px;
 }
 @media (max-width:1000px) {
     .sec3{
-        transform: translate(10px, 370px);
+        transform: translate(10px, 385px);
     }
     .edu1{
         width: 100%;
     }
     .inneredu{
-        padding: 0 10px;
+        padding: 15px;
         margin: 0;
         line-height: 30px;
     }
+}
+
+/* 4sec skill */
+.sec4{
+    text-align: center;
+    margin: 50px 0px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.left{
+    flex: 5;
+    margin-right: 10px;
+}
+.right{
+    flex: 5;
+    margin-left: 10px;
+}
+.innerskill{
+    margin-bottom: 25px;
+}
+.skillp{
+    margin: 5;
+    text-align: start;
+    font-size: large;
+    font-weight: 700;
+}
+@media (max-width:1000px) {
+    .sec4{
+        transform: translate(10px, 370px);
+    }
+    .skill{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        margin: 0;
+    }
+    .right{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* 5sec project */
+.sec5{
+    text-align: center;
+    color: black;
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.leftpro{
+    flex: 5;
+    margin-left: 10px;
+}
+.rightpro{
+    flex: 5;
+    margin-right: 10px;
+}
+.pro{
+    width: 100%;
+    height: 40vh;
+    color: white; 
+    background-image: url(abstract-blur-coffee-shop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pro1{
+    width: 100%;
+    height: 40vh;
+    color: white; 
+    background-image: url(bearded-hipster-amateur-photographer-with-tattoos-arms-dressed-fleece-shirt-holds-compact-dslr-camera-grey-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.protext{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.247);
+}
+.proh{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+.proh1{
+    font-size: 1.40rem;
+}
+.proa{
+    margin-top: 20px;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.082);
+    color: white;
+    border:2px solid white;
+    text-decoration: none;
 }

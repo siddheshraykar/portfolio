@@ -1,0 +1,109 @@
+/* header css */
+li{
+    padding-right: 20;
+    text-align: center;
+    font-weight: bold;
+}
+figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(11px, -22px);
+}
+.div1{
+    height: 42px;
+    width: 247px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #616161;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.m0{
+    margin: 0;
+}
+.header_img{
+    width: 100%;
+    padding: 0;
+}
+/* End header */
+/* main css */
+main{
+    display: flex;
+    justify-content: center;
+}
+.main_div{
+    display: block;
+    unicode-bidi: isolate;
+    max-width: 980px;
+    margin-top: 16px !important;
+    padding: 12px 24px !important;
+}
+.main_img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    border-style: none;
+    width: 1000;
+    height: 500;
+}
+.div2{
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    padding: 12px 24px !important;
+    margin-top: 16px !important;
+}
+h3{
+    text-align: center !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.div3{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+input{
+    border: 1px solid #ccc !important;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+button{
+    color: #fff !important;
+    background-color: #616161 !important;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+}
+/* End main */
