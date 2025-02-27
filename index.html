@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
     <title>Portfolio Website</title>
 </head>
 <body>
@@ -35,10 +36,10 @@
                     <a class="nav-link" href="#skill">SKILLS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">PROJECTS</a>
+                    <a class="nav-link" href="#project">PROJECTS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">CONTACT</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -204,10 +205,11 @@
          </div>
 
         <!--5sec projects  -->
-         <div class="sec5">
+         <div id="project" class="sec5">
            <div class="container">
             <h1>Projects</h1>
             <div class="project">
+              <!-- right -->
               <div class="rightpro">
                 <div class="pro">
                   <div class="protext">
@@ -217,6 +219,7 @@
                   </div>
                 </div>
               </div>
+              <!-- left -->
               <div class="leftpro">
                 <div class="pro1">
                   <div class="protext">
@@ -229,8 +232,43 @@
             </div>
            </div>
          </div>
+
+         <!-- 6sec contact -->
+          <div id="contact" class="sec6">
+            <div class="container">
+              <h1>Contact Me</h1>
+              <div class="form">
+                <form class="innerform" onsubmit="return validate(event)">
+                  <div class="div3">
+                    <label for="name">Enter Your Full Name</label><br>
+                    <input type="text" placeholder="Enter your name" id="name" name="name">
+                  </div><br>
+                  
+                  <div>
+                    <label>Enter Your Validate Email</label><br>
+                    <input type="email" placeholder="Enter your email id" id="email" name="email">
+                  </div><br>
+                
+                  <div>
+                    <label for="phone">Enter Your Validate Phone No</label><br>
+                    <input type="number" placeholder="Enter your phone no" id="phone" name="phone">
+                  </div><br>
+                
+                  <div>
+                    <label for="message">Enter Your Message</label><br>
+                    <input type="text" placeholder="Enter your message" id="message" name="message">
+                  </div><br>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
     </main>
 
     <!-- footer -->
+     <footer>
+      <p class="footer">© 2024. Siddhesh Raykar| Full Stack Web Developer with Python | Front End Developer | Back End Developer</p>
+     </footer>
+
 </body>
 </html>
