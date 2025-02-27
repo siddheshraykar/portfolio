@@ -312,3 +312,17 @@
     border:2px solid white;
     text-decoration: none;
 }
+
+@media (max-width:1000px) {
+    .sec5{
+        transform: translate(10px, 370px);
+    }
+    .rightpro{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .leftpro{
+        margin: 0;
+        margin-top: 10px;
+    }
+}    
