@@ -286,6 +286,16 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.pro4{
+    width: 100%;
+    height: 40vh;
+    color: white; 
+    background-image: url(ai-generative-strong-athletic-men-pumping-up-muscles-workout-bodybuilding-concept-muscular-bodybuilder-men-doing-exercises-in-gym-naked-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .pro3{
     width: 100%;
